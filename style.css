@@ -273,10 +273,11 @@ h6{
 @media screen and (max-width: 700px) {
   .h5{
     font-size: 20px;
-    padding-left: 15px;
+    margin-left: 20vw;
+    margin-bottom: 1vw;
   }
   .container{
-    margin-left: 30vw;
+    margin-left: 20vw;
     width: 200px;
     padding-left: 0px;
   }
@@ -286,11 +287,12 @@ h6{
   }
   .h6{
     font-size: 15px;
+    margin-left: 20vw;
   }
   .circle{
     height: 300px;
     width: 250px;
-    margin-left: 30vw;
+    margin-left: 20vw;
   }
   .heading{
     font-size: 20px;
