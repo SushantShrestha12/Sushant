@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script
+      src="https://kit.fontawesome.com/8a1be6ca00.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <img class="img" src="Images/book.png" alt="" />
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <!-- <li><a href="#">About</a></li> -->
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="Python.html">Python Turtle</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text">
+        <h1>Contact Us</h1>
+      </div>
+    </section>
+
+<!---------- Contact Us ----------->
+<section class="contact-us">
+  <div class="row">
+    <div class="contact-col">
+
+      <div>
+        <i class="far fa-home"></i>
+        <span>
+          <h5>Campus Road, Baglung</h5>
+          <p>Provience 4, Nepal</p>
+        </span>
+      </div>
+
+      <div>
+        <i class="far fa-envelope"></i>
+        <span>
+          <h5>sthasushant1@gmail.com</h5>
+          <p>Email us your query</p>
+        </span>
+      </div>
+
+      <div>
+        <i class="far fa-phone-alt"></i>
+        <span>
+          <h5>98--------</h5>
+          <p>Sunday to Friday, 10AM to 6PM</p>
+        </span>
+      </div>
+
+    </div>
+    <div class="contact-col"></div>
+
+  </div>
+</section>
+
+
+
+
+    <!----- Footer ----->
+
+    <section class="footer">
+      <h3>About Us</h3>
+      <p>I'm Sushant Shrestha from Nepal. <br>
+        I am setting up this website to develop my experience in web development <br> and moreover, I will try to deliver quality content.</p>
+      <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+      <p> Made with <i class="far fa-heart"></i> by Sushant Shrestha</i></p>
+    </section>
+
+  <!----- Java Script for toggle menu ----->
+      <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+          navLinks.style.right = "0"; 
+        }
+        function hideMenu(){
+          navLinks.style.right = "-200px"; 
+        }
+      </script>
+       
+  </body>
+</html>
