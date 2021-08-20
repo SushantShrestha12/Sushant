@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Economics Note Class:- 12</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/8a1be6ca00.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <img class="img" src="book.png" alt="" />
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="Books.html">Books</a></li>
+            <li><a href="Python.html">Python Turtle</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text">
+        <h1>Economics</h1>
+      </div>
+    </section>
+
+    <!------- Economics ------->
+<section class="economics">
+
+    <h1 class="chapter">Chapter 1</h1>
+
+    <div class="sub1">
+        <h1 class="q1">Q NO.1  &nbsp;  &nbsp; &nbsp; Scarcity is the central problem of economy. Justify this statement.</h1> <br>
+
+        <button onclick="toggleClock()" id="clockButton">Show</button>
+
+        <div id="myDIV">
+
+          <p class="ans1">
+            Ans:-  &nbsp;  &nbsp;  &nbsp;Human wants are unlimited, but the resources are limited and those resources are supplied in less amount than the demand. It is known as Scarcity. <br> <br>
+          
+            Scarcity is the central problem of the economy because while resources are limited, we are living in a society with unlimited wants. Therefore we have to choose. We have to make trade-offs. We have to effectively allocate resources. We have to do these things because resources are limited and cannot meet out own unlimited demands. People are creating unlimited demands, but there is less supply than the demand so, that's why scarcity is the central problem of economy. People have choice to choose the resources which are avaliable. <br> <br>
+            
+            In conclusion, Scarcity is the main problem of economy because we have to choose the limited resources over the unlimited wants.
+          </p>
+        </div>
+
+
+
+    </div>
+
+</section>
+
+
+    <!----- Footer ----->
+
+    <section class="footer">
+      <h3>About Us</h3>
+      <p>
+        I'm Sushant Shrestha from Nepal. <br>
+         I am setting up this website to develop my experience in web development <br> and moreover, I will try to deliver quality content. 
+      </p>
+      <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+      <p> Made with <i class="far fa-heart"></i> by Sushant Shrestha</i></p>
+    </section>
+
+  <!----- Java Script for toggle menu ----->
+      <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+          navLinks.style.right = "0"; 
+        }
+        function hideMenu(){
+          navLinks.style.right = "-200px"; 
+        }
+
+        // For toggle
+        function toggleClock() {
+          var x = document.getElementById("myDIV");
+          var y = document.getElementById('clockButton');
+          var z = x.style.display;
+
+          if (z == "block") {
+            x.style.display = "none";
+            y.innerHTML = 'Show';
+          } 
+
+          else {
+            x.style.display = "block";
+            y.innerHTML = 'Hide';
+          }
+        }
+      </script>
+       
+  </body>
+</html>

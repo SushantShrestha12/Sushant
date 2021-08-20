@@ -10,7 +10,7 @@
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url("pen.jpg");
+    url(pen.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -155,7 +155,7 @@ li:hover::after {
   height: 50vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url("pen.jpg");
+    url(pen.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -190,21 +190,7 @@ li:hover::after {
   color: red;
   margin: 10px 10px 10px 350px;
   margin-right: 30px;
-} 
-
-.contact-col div .fas {
-  font-size: 28px;
-  color: red;
-  margin: 10px 10px 10px 350px;
-  margin-right: 30px;
 }
-
-.contact-col div .fas {
-  font-size: 28px;
-  color: red;
-  margin: 10px 10px 10px 350px;
-  margin-right: 30px;
-} 
 
 .contact-col div p {
   padding: 0;
@@ -221,103 +207,225 @@ li:hover::after {
   .text h1 {
     font-size: 20px;
   }
-  .contact-col div .far{
-    margin: 20px;
-  }
-  .contact-col div .fas{
-    margin: 20px;
-  }
-  .contact-col div .fas{
+  .contact-col div .far {
     margin: 20px;
   }
 }
 
 /*----- Python -----*/
-.python{
+.python {
   background-color: black;
 }
 
+.pattern {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .h5 {
-  margin-left: 30vw;
   font-size: 30px;
   color: red;
+  margin: 20px 0px 0px 40px;
+  padding: 20px 10px 0px 120px;
 }
 
 .container {
   font-size: 20px;
   padding: 20px 30px;
-  margin: 20px 0px 80px 30vw;
+  margin: 20px 0px 80px 0px;
   border-color: green;
   border-style: none none none solid;
   border-width: 7px;
   background-color: blanchedalmond;
   width: 300px;
-  line-height:1.9;
+  line-height: 1.9;
 }
 
-.container2{
-  width:400px;
+.container2 {
+  width: 400px;
   height: 400px;
+  margin: 0px 0px 0px 0px;
 }
 
-.circle{
-  width:32vw;
-  /* height: 52vh; */
-  margin-left: 30vw;
+.circle {
+  width: 32vw;
+  height: 52vh;
 }
 
-h6{
+h6 {
   font-size: larger;
   color: green;
-  /* text-align: center; */
-  margin-left: 30vw;
 }
 
-.intro{
+.intro {
   margin: 30px;
 }
 
-.heading{
+.heading {
   font-size: 40px;
   text-align: center;
   color: white;
   padding-top: 30px;
 }
 
-.paragraph{
+.paragraph {
   font-size: 20px;
   text-align: center;
   color: white;
 }
 
 @media screen and (max-width: 700px) {
-  .h5{
+  .h5 {
     font-size: 20px;
-    margin-left: 20vw;
-    margin-bottom: 1vw;
+    padding-left: 15px;
   }
-  .container{
-    margin-left: 20vw;
+  .container {
+    margin-left: 0px;
     width: 200px;
     padding-left: 0px;
+    /* height: 70vh; */
   }
-  
-  .container pre{
+  .container pre {
     font-size: medium;
   }
-  .h6{
+  .h6 {
     font-size: 15px;
-    margin-left: 20vw; 
+    text-align: center;
   }
-  .circle{
+  .circle {
     height: 300px;
     width: 250px;
-    margin-left: 20vw;
   }
-  .heading{
+  .heading {
     font-size: 20px;
   }
-  .paragraph{
+  .paragraph {
     font-size: 15px;
+  }
+}
+
+/* -----Books------ */
+.book {
+  display: grid;
+  background-image: linear-gradient(#cc2b5e, #753a88);
+  grid-gap: 4px 75px;
+  grid-template-columns: 45vw 45vw;
+  grid-template-rows: 65vh 65vh 65vh;
+  margin: 70px 0px 0px 0px;
+}
+
+.item {
+  margin: 30px 0px 30px 50px;
+  background-image: linear-gradient(#cc2b5e, #753a88);
+  /* border: 3px solid red; */
+}
+
+.subjects {
+  width: 18vw;
+  height: 45vh;
+  margin: 40px 0 0 11vw;
+}
+
+.subj {
+  text-align: center;
+  font-size: 2vw;
+  color: pink;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.heading2 {
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  padding-top: 3vh;
+}
+
+.paragraph2 {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+@media screen and (max-width: 700px) {
+  .book {
+    grid-gap: 4px 30px;
+    grid-template-columns: 44vw 44vw;
+    grid-template-rows: 50vh 50vh 50vh;
+  }
+
+  .subjects {
+    align-items: center;
+    margin: 7vw 0 0 8vw;
+    width: 20vw;
+    height: auto;
+  }
+
+  .heading2 {
+    font-size: 20px;
+  }
+
+  .paragraph2 {
+    font-size: 15px;
+  }
+}
+
+/* ------- Economics ------- */
+.economics{
+  /* background-color: #a40606;
+background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%); */
+
+/* background-color: #ff4e00;
+background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%); */
+
+background-color: #f8ceec;
+background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+
+
+
+
+}
+
+.chapter{
+  color: greenyellow;
+  text-align: center;
+  padding-top: 4vh;
+}
+
+.q1{
+  color: #080808;
+  text-align:left;
+  padding: 0 0 0 5vw;
+  margin: 4vh 0 0 0;
+  
+}
+
+.ans1{
+  padding: 0 5vw 0 5vw;
+  text-align: justify;
+  font-size: 3vh;
+}
+
+#clockButton{
+  border-radius: 7px;
+  border: 2px solid green;
+  font-size: larger;
+  color: blue;
+}
+
+#myDIV{
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .q1{
+    font-size: 20px;
+  }
+
+  .ans1{
+    font-size: 20px;
   }
 }
