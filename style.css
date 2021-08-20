@@ -320,7 +320,7 @@ h6 {
 .item {
   margin: 30px 0px 30px 50px;
   background-image: linear-gradient(#cc2b5e, #753a88);
-  /* border: 3px solid red; */
+
 }
 
 .subjects {
@@ -355,6 +355,14 @@ h6 {
     grid-gap: 4px 30px;
     grid-template-columns: 44vw 44vw;
     grid-template-rows: 50vh 50vh 50vh;
+  }
+
+  .item{
+    height: 40vh;
+  }
+
+  .subj{
+    margin: 10px 0 0 0;
   }
 
   .subjects {
