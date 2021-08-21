@@ -358,7 +358,7 @@ h6 {
   }
 
   .item{
-    height: 40vh;
+    height: 34vh;
   }
 
   .subj{
@@ -383,18 +383,8 @@ h6 {
 
 /* ------- Economics ------- */
 .economics{
-  /* background-color: #a40606;
-background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%); */
-
-/* background-color: #ff4e00;
-background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%); */
-
 background-color: #f8ceec;
 background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
-
-
-
-
 }
 
 .chapter{
