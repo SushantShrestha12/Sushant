@@ -53,12 +53,6 @@ nav img {
   font-size: 13px;
 }
 
-/* li {
-  display: inline-block;
-  margin: 30px 10px;
-  padding: 0px 10px;
-} */
-
 li::after {
   content: "";
   width: 0%;
@@ -327,6 +321,9 @@ h6 {
   width: 18vw;
   height: 45vh;
   margin: 40px 0 0 11vw;
+  border: 7px ridge;
+  border-color: #00A4BD #33475B #FF7A59;
+  border-radius: 7px;
 }
 
 .subj {
@@ -379,18 +376,69 @@ h6 {
   .paragraph2 {
     font-size: 15px;
   }
+  
+ 
 }
 
-/* ------- Economics ------- */
-.economics{
-background-color: #f8ceec;
-background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+/* ------- All Subjects ------- */
+.description{
+  text-align: center;
+  margin-top: 10vh;
+  font-size: larger;
+  color: #FF7A59;
+}
+
+.all_subjects{
+  display: flex;
+}
+
+.content {
+  background-color: #f8ceec;
+  background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+  margin: 0 1vw 0 1vw;
+  width: 30vw;
+}
+
+.lesson_name{
+  background-color: purple;
+  padding-top: 1vh;
+  text-align: center;
+  height: 4vh;
+  font-size: 25px;
+  color: aqua;
+}
+
+.chap{
+  margin: 10px 0 0 7px;
+  font-size: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.chap::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: brown;
+  display: block;
+  margin: auto;
+}
+
+.chap:hover::after {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.sub1{
+margin-right: 1vw;
+width: 70vw;
 }
 
 .chapter{
-  color: greenyellow;
-  text-align: center;
+  color:black;
+  text-align: left;
   padding-top: 4vh;
+  padding-left: 58vw;
 }
 
 .q1{
@@ -399,6 +447,20 @@ background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
   padding: 0 0 0 5vw;
   margin: 4vh 0 0 0;
   
+}
+
+.download{
+  background-color: dodgerblue;
+  color: white;
+  height: 5vh;
+  width: 12vw;
+  margin-left: 7vw;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.download:hover{
+  background-color: royalblue;
 }
 
 .ans1{
@@ -425,5 +487,23 @@ background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
 
   .ans1{
     font-size: 20px;
+  }
+  
+  .chapter{
+    font-size: 20px;
+  
+  }
+
+  .lesson_name{
+    font-size: 20px;
+  }
+  
+  .chap{
+    font-size: 20px;
+  }
+
+  .download{
+    height: 5vh;
+    width: 21vw;
   }
 }
