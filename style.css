@@ -312,7 +312,7 @@ h6 {
 }
 
 .item {
-  margin: 30px 0px 30px 50px;
+  margin: 30px 0px 0px 50px;
   background-image: linear-gradient(#cc2b5e, #753a88);
 
 }
@@ -350,11 +350,12 @@ h6 {
 @media screen and (max-width: 700px) {
   .book {
     grid-gap: 4px 30px;
-    grid-template-columns: 44vw 44vw;
+    grid-template-columns: 40vw 40vw;
     grid-template-rows: 50vh 50vh 50vh;
   }
 
   .item{
+    background-image: none;
     height: 34vh;
   }
 
@@ -364,7 +365,7 @@ h6 {
 
   .subjects {
     align-items: center;
-    margin: 7vw 0 0 8vw;
+    margin: 7vw 0 0 7vw;
     width: 20vw;
     height: auto;
   }
