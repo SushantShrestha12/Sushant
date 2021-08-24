@@ -443,10 +443,16 @@ h6 {
 }
 
 .q1 {
-  color: #080808;
+  color: red;
   text-align: left;
   padding: 0 0 0 5vw;
   margin: 4vh 0 0 0;
+}
+
+.q11 {
+  color: #080808;
+  text-align: left;
+  padding: 0 0 0 5vw;
 }
 
 .download {
@@ -469,19 +475,23 @@ h6 {
   font-size: 3vh;
 }
 
-#clockButton {
+.all_button {
   border-radius: 7px;
   border: 2px solid green;
   font-size: larger;
   color: blue;
 }
 
-#myDIV {
+.display_btn {
   display: none;
 }
 
 @media screen and (max-width: 700px) {
   .q1 {
+    font-size: 15px;
+  }
+
+  .q11 {
     font-size: 15px;
   }
 

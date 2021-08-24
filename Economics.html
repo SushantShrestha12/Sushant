@@ -61,9 +61,9 @@
     <div class="sub1">
         <h1 class="q1">Q NO.1  &nbsp;  &nbsp; &nbsp; Scarcity is the central problem of economy. Justify this statement.</h1> <br>
 
-        <button onclick="toggleClock()" id="clockButton">Show</button>
+        <button class="all_button" onclick="toggleClock()" id="clockButton">Show</button>
 
-        <div id="myDIV">
+        <div class="display_btn" id="myDIV">
 
           <p class="ans1">
             Ans:-  &nbsp;  &nbsp;  &nbsp;Human wants are unlimited, but the resources are limited and those resources are supplied in less amount than the demand. It is known as Scarcity. <br> <br>
@@ -98,31 +98,7 @@
     </section>
 
   <!----- Java Script for toggle menu ----->
-      <script>
-        var navLinks = document.getElementById("navLinks")
-        function showMenu(){
-          navLinks.style.right = "0"; 
-        }
-        function hideMenu(){
-          navLinks.style.right = "-200px"; 
-        }
-
-        // For toggle
-        function toggleClock() {
-          var x = document.getElementById("myDIV");
-          var y = document.getElementById('clockButton');
-          var z = x.style.display;
-
-          if (z == "block") {
-            x.style.display = "none";
-            y.innerHTML = 'Show';
-          } 
-
-          else {
-            x.style.display = "block";
-            y.innerHTML = 'Hide';
-          }
-        }
+      <script src="script.js">
       </script>
        
   </body>
