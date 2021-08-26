@@ -201,18 +201,18 @@ var navLinks = document.getElementById("navLinks")
           } 
         }
 
-        // function toggleClock13() {
-        //   var x = document.getElementById("myDIV13");
-        //   var y = document.getElementById('clockButton13');
-        //   var z = x.style.display;
+        function toggleClock13() {
+          var x = document.getElementById("myDIV13");
+          var y = document.getElementById('clockButton13');
+          var z = x.style.display;
 
-        //   if (z == "block") {
-        //     x.style.display = "none";
-        //     y.innerHTML = 'Show';
-        //   } 
+          if (z == "block") {
+            x.style.display = "none";
+            y.innerHTML = 'Show';
+          } 
 
-        //   else {
-        //     x.style.display = "block";
-        //     y.innerHTML = 'Hide';
-        //   } 
-        // }
+          else {
+            x.style.display = "block";
+            y.innerHTML = 'Hide';
+          } 
+        }
