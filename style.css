@@ -460,7 +460,7 @@ h6 {
 
 .q1 {
   color: red;
-  text-align: center;
+  text-align: left;
   padding: 0 0 0 5vw;
   margin: 4vh 0 0 0;
 }
@@ -492,8 +492,8 @@ h6 {
 }
 
 .all_button {
-  margin-left: 32vw;
-  text-align: center;
+  margin-left: 30vw;
+  text-align: left;
   border-radius: 7px;
   font-size: larger;
   color: white;
@@ -540,6 +540,6 @@ h6 {
   
   .all_button{
     font-size: 15px;
-    margin-left: 22vw;
+    margin-left: 0;
   }
 }
