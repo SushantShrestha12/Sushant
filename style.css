@@ -460,7 +460,7 @@ h6 {
 
 .q1 {
   color: red;
-  text-align: left;
+  text-align: center;
   padding: 0 0 0 5vw;
   margin: 4vh 0 0 0;
 }
@@ -492,6 +492,8 @@ h6 {
 }
 
 .all_button {
+  /* margin-bottom: 20px; */
+  margin-top: 7px;
   margin-left: 30vw;
   text-align: left;
   border-radius: 7px;
@@ -507,6 +509,7 @@ h6 {
 @media screen and (max-width: 700px) {
   .q1 {
     font-size: 15px;
+    text-align: left;
   }
 
   .q11 {
