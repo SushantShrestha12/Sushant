@@ -16,12 +16,12 @@ var navLinks = document.getElementById("navLinks")
 
           if (z == "block") {
             x.style.display = "none";
-            y.innerHTML = 'Show';
+            y.innerHTML = 'Show answer';
           } 
 
           else {
             x.style.display = "block";
-            y.innerHTML = 'Hide';
+            y.innerHTML = 'Hide answer';
           }   
         }
 
@@ -32,12 +32,12 @@ var navLinks = document.getElementById("navLinks")
 
           if (z == "block") {
             x.style.display = "none";
-            y.innerHTML = 'Show';
+            y.innerHTML = 'Show answer';
           } 
 
           else {
             x.style.display = "block";
-            y.innerHTML = 'Hide';
+            y.innerHTML = 'Hide answer';
           } 
         }
 
@@ -48,12 +48,12 @@ var navLinks = document.getElementById("navLinks")
 
           if (z == "block") {
             x.style.display = "none";
-            y.innerHTML = 'Show';
+            y.innerHTML = 'Show answer';
           } 
 
           else {
             x.style.display = "block";
-            y.innerHTML = 'Hide';
+            y.innerHTML = 'Hide answer';
           } 
         }
 
@@ -64,12 +64,12 @@ var navLinks = document.getElementById("navLinks")
 
           if (z == "block") {
             x.style.display = "none";
-            y.innerHTML = 'Show';
+            y.innerHTML = 'Show answer';
           } 
 
           else {
             x.style.display = "block";
-            y.innerHTML = 'Hide';
+            y.innerHTML = 'Hide answer';
           } 
         }
 
@@ -80,12 +80,12 @@ var navLinks = document.getElementById("navLinks")
 
           if (z == "block") {
             x.style.display = "none";
-            y.innerHTML = 'Show';
+            y.innerHTML = 'Show answer';
           } 
 
           else {
             x.style.display = "block";
-            y.innerHTML = 'Hide';
+            y.innerHTML = 'Hide answer';
           } 
         }
 
@@ -96,12 +96,12 @@ var navLinks = document.getElementById("navLinks")
 
           if (z == "block") {
             x.style.display = "none";
-            y.innerHTML = 'Show';
+            y.innerHTML = 'Show answer';
           } 
 
           else {
             x.style.display = "block";
-            y.innerHTML = 'Hide';
+            y.innerHTML = 'Hide answer';
           } 
         }
 
@@ -112,12 +112,12 @@ var navLinks = document.getElementById("navLinks")
 
           if (z == "block") {
             x.style.display = "none";
-            y.innerHTML = 'Show';
+            y.innerHTML = 'Show answer';
           } 
 
           else {
             x.style.display = "block";
-            y.innerHTML = 'Hide';
+            y.innerHTML = 'Hide answer';
           } 
         }
 
@@ -128,12 +128,12 @@ var navLinks = document.getElementById("navLinks")
 
           if (z == "block") {
             x.style.display = "none";
-            y.innerHTML = 'Show';
+            y.innerHTML = 'Show answer';
           } 
 
           else {
             x.style.display = "block";
-            y.innerHTML = 'Hide';
+            y.innerHTML = 'Hide answer';
           } 
         }
 
@@ -144,12 +144,12 @@ var navLinks = document.getElementById("navLinks")
 
           if (z == "block") {
             x.style.display = "none";
-            y.innerHTML = 'Show';
+            y.innerHTML = 'Show answer';
           } 
 
           else {
             x.style.display = "block";
-            y.innerHTML = 'Hide';
+            y.innerHTML = 'Hide answer';
           } 
         }
 
@@ -160,12 +160,12 @@ var navLinks = document.getElementById("navLinks")
 
           if (z == "block") {
             x.style.display = "none";
-            y.innerHTML = 'Show';
+            y.innerHTML = 'Show answer';
           } 
 
           else {
             x.style.display = "block";
-            y.innerHTML = 'Hide';
+            y.innerHTML = 'Hide answer';
           } 
         }
 
@@ -176,12 +176,12 @@ var navLinks = document.getElementById("navLinks")
 
           if (z == "block") {
             x.style.display = "none";
-            y.innerHTML = 'Show';
+            y.innerHTML = 'Show answer';
           } 
 
           else {
             x.style.display = "block";
-            y.innerHTML = 'Hide';
+            y.innerHTML = 'Hide answer';
           } 
         }
 
@@ -192,27 +192,27 @@ var navLinks = document.getElementById("navLinks")
 
           if (z == "block") {
             x.style.display = "none";
-            y.innerHTML = 'Show';
+            y.innerHTML = 'Show answer';
           } 
 
           else {
             x.style.display = "block";
-            y.innerHTML = 'Hide';
+            y.innerHTML = 'Hide answer';
           } 
         }
 
-        function toggleClock13() {
-          var x = document.getElementById("myDIV13");
-          var y = document.getElementById('clockButton13');
-          var z = x.style.display;
+        // function toggleClock13() {
+        //   var x = document.getElementById("myDIV13");
+        //   var y = document.getElementById('clockButton13');
+        //   var z = x.style.display;
 
-          if (z == "block") {
-            x.style.display = "none";
-            y.innerHTML = 'Show';
-          } 
+        //   if (z == "block") {
+        //     x.style.display = "none";
+        //     y.innerHTML = 'Show answer';
+        //   } 
 
-          else {
-            x.style.display = "block";
-            y.innerHTML = 'Hide';
-          } 
-        }
+        //   else {
+        //     x.style.display = "block";
+        //     y.innerHTML = 'Hide answer';
+        //   } 
+        // }
