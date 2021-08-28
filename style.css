@@ -481,6 +481,10 @@ h6 {
   border-radius: 7px;
 }
 
+.link{
+  margin-left: 24vw;
+}
+
 .download:hover {
   background-color: royalblue;
 }
@@ -494,7 +498,7 @@ h6 {
 .all_button {
   /* margin-bottom: 20px; */
   margin-top: 7px;
-  margin-left: 30vw;
+  margin-left: 31vw;
   text-align: left;
   border-radius: 7px;
   font-size: larger;
@@ -543,6 +547,10 @@ h6 {
   
   .all_button{
     font-size: 15px;
+    margin-left: 0;
+  }
+
+  .link{
     margin-left: 0;
   }
 }
