@@ -216,3 +216,6 @@ var navLinks = document.getElementById("navLinks")
         //     y.innerHTML = 'Hide answer';
         //   } 
         // }
+
+
+// </-------For Line Graph-------/>

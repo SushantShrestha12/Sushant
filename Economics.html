@@ -15,10 +15,14 @@
 </script>
     <title>Economics Note Class:- 12</title>
     <link rel="stylesheet" href="style.css" />
+
     <script
       src="https://kit.fontawesome.com/8a1be6ca00.js"
       crossorigin="anonymous"
     ></script>
+
+    <script src="javachart.js"></script>
+
   </head>
   <body>
     <section class="sub-header">
@@ -60,7 +64,7 @@
 
     <div class="sub1">
 
-      <h1 class="q1"> What is Scarcity? </h1> 
+      <h1 class="q1"> Scarcity </h1> 
 
         <button class="all_button" onclick="toggleClock()" id="clockButton">Show answer</button>
 
@@ -71,7 +75,7 @@
           </p>
         </div>
 
-        <h1 class="q1">What is Choice? </h1> 
+        <h1 class="q1"> Choice </h1> 
 
         <button class="all_button" onclick="toggleClock2()" id="clockButton2">Show answer</button>
 
@@ -98,7 +102,197 @@
           </p>
         </div>
 
+        <h1 class="q1">Production Possibility Curve </h1> 
 
+        
+        <button class="all_button" onclick="toggleClock4()" id="clockButton4">Show answer</button>
+        
+        <div class="display_btn" id="myDIV4">
+          <h1 class="q1"> Introduction </h1> 
+
+          <p class="ans1">
+            Ans:-  &nbsp;  &nbsp;  &nbsp; Human wants are unlimited but resources are available to fulfill those wants are limited, they have alternative uses. The production possibility curve is also known as the production frontier curve or the production boundary curve to the production transformation curve.
+          </p>
+
+          <h1 class="q1"> Statement </h1> 
+
+          <p class="ans1">Production possibility curve refers to locus focus of various alternative combinations of two commodities that can be produced utilizing the available means and resources and given technology by an economy in a certain time period</p>
+
+          <h1 class="q1"> Assumptions </h1> 
+          <p class="ans1">
+            <li class="ans1">
+              The economy is producing only two goods.
+            </li>
+
+            <li class="ans1">
+              There is full employment of resources.
+            </li>
+
+            <li class="ans1">
+              Production technology is given and constant.
+            </li>
+
+            <li class="ans1">
+              The factor of production is given and constant.
+            </li>
+
+            <li class="ans1">
+              The time period is given.
+            </li>
+            
+            <h1 class="q1"> Table </h1> 
+              <table class="ans1">
+                <tr class="q1">
+                  <th>Combinations</th>
+                  <th>Consumer goods</th>
+                  <th>Capital goods</th>
+                  <th>Opportunity Cost</th>
+                </tr>
+
+                <tr>
+                  <td>A</td>
+                  <td>0</td>
+                  <td>10</td>
+                  <td>-</td>
+                </tr>
+
+                <tr>
+                  <td>B</td>
+                  <td>1</td>
+                  <td>9</td>
+                  <td>-1:1</td>
+                </tr>
+
+                <tr>
+                  <td>C</td>
+                  <td>2</td>
+                  <td>7</td>
+                  <td>-2:1</td>
+                </tr>
+
+                <tr>
+                  <td>D</td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>-3:1</td>
+                </tr>
+
+                <tr>
+                  <td>E</td>
+                  <td>4</td>
+                  <td>0</td>
+                  <td>-4:1</td>
+                </tr>
+            </table>
+
+            <p class="ans1">
+              This table shows combinations, consumer goods, capital goods, opportunity cost. Here, combination A(0, 10) shows 0 MT consumer goods and 10 MT capital goods.  Combination B (1,9) shows 1 MT consumer goods and 9 MT capital goods.  Combination C (2, 7) shows 2 MT consumer goods and 7 MT capital goods.  Combination D(3, 4) shows 3 MT consumer goods and 4 MT capital goods.  Combination E(4, 0) shows 4 MT consumer goods and 0 MT capital goods. 
+            </p>
+
+            <h1 class="q1"> Diagram </h1> 
+
+            <div id="chartContainer"></div>
+
+            <p class="ans1">This figure shows that the x-axis measures consumer goods and the y-axis measures capital goods. In order to increase the production of one unit, more and more units of other goods have to be sacrificed since the resources are limited and are not equally efficient in the production of both the goods. 
+            </p>
+
+            <h1 class="q1"> Conclusion </h1> 
+            <p class="ans1">Hence, the resources are limited in order to increase the production of one good to the producer should have to sacrifice the production of other goods. The more unit of one commodity the more sacrifice of another commodity.</p>
+        </div>
+
+        <h1 class="q1"> Shift in PPC curve</h1> 
+
+        <button class="all_button" onclick="toggleClock5()" id="clockButton5">Show answer</button>
+
+        <div class="display_btn" id="myDIV5">
+
+          <p class="ans1">
+            Ans:-  &nbsp;  &nbsp;  &nbsp; The movement of the entire PPC form from its initial position to inward or outward position, due to the various reasons is called a shift in the PPC curve.
+          </p>
+        </div>
+
+        <h1 class="q1">Rightward shift in PPC curve </h1> 
+
+        <button class="all_button" onclick="toggleClock6()" id="clockButton6">Show answer</button>
+
+        <div class="display_btn" id="myDIV6">
+
+          <p class="ans1">
+            Ans:-  &nbsp;  &nbsp;  &nbsp; If the PPC curve moves upward due to technological progress, discover natural resources, increase in the productivity of human resources, increase in the capital investment and increase in the capital formation, increase in the size of the population, etc is known as a rightward shift in PPC curve.
+          </p>
+        </div>
+
+        <h1 class="q1">Reasons for rightward shift in PPC curve </h1> 
+
+        <button class="all_button" onclick="toggleClock7()" id="clockButton7">Show answer</button>
+
+        <div class="display_btn" id="myDIV7">
+
+          <p class="ans1">
+            <li class="ans1">
+              Due to technological change.
+            </li>
+
+            <li class="ans1">
+              Due to discoveries of natural resources in larger quantities.
+            </li>
+
+            <li class="ans1">
+              Due to the increase in the productivity of labor.
+            </li>
+
+            <li class="ans1">
+              Due to the increase in investment in capital and the increase in capital formation.
+            </li>
+
+            <li class="ans1">
+              Due to the increase in the size of the population.
+            </li>
+
+          </p>
+        </div>
+
+        <h1 class="q1">Leftward shift in PPC curve</h1> 
+
+        <button class="all_button" onclick="toggleClock8()" id="clockButton8">Show answer</button>
+
+        <div class="display_btn" id="myDIV8">
+
+          <p class="ans1">
+            Ans:-  &nbsp;  &nbsp;  &nbsp; If the PPC curve moves backward or inward due to the backwardness in technology, shortage of natural resources, lack of capital investment, lack of machinery, lack of skilled human resources, decrease in size of the population, migration, etc is known as a leftward shift in PPC curve.
+  
+          </p>
+        </div>
+
+        <h1 class="q1">Reasons for leftward shift in PPC curve </h1> 
+
+        <button class="all_button" onclick="toggleClock9()" id="clockButton9">Show answer</button>
+
+        <div class="display_btn" id="myDIV9">
+
+          <p class="ans1">
+            <li class="ans1">
+              Due to the backwardness in technology. 
+            </li>
+
+            <li class="ans1">
+              Due to the shortage of natural resources
+            </li>
+
+            <li class="ans1">
+              Due to the lack of training for the labor.
+            </li>
+
+            <li class="ans1">
+              Due to the decrease in capital investment.
+            </li>
+
+            <li class="ans1">
+              Due to the decrease in the size of the population.
+            </li>
+
+          </p>
+        </div>
 
     </div>
 
@@ -124,6 +318,8 @@
   <!----- Java Script for toggle menu ----->
       <script src="script.js">
       </script>
-       
+
+      <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    
   </body>
 </html>
