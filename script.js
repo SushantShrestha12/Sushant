@@ -201,21 +201,71 @@ var navLinks = document.getElementById("navLinks")
           } 
         }
 
-        // function toggleClock13() {
-        //   var x = document.getElementById("myDIV13");
-        //   var y = document.getElementById('clockButton13');
-        //   var z = x.style.display;
+        function toggleClock13() {
+          var x = document.getElementById("myDIV13");
+          var y = document.getElementById('clockButton13');
+          var z = x.style.display;
 
-        //   if (z == "block") {
-        //     x.style.display = "none";
-        //     y.innerHTML = 'Show answer';
-        //   } 
+          if (z == "block") {
+            x.style.display = "none";
+            y.innerHTML = 'Show answer';
+          } 
 
-        //   else {
-        //     x.style.display = "block";
-        //     y.innerHTML = 'Hide answer';
-        //   } 
-        // }
+          else {
+            x.style.display = "block";
+            y.innerHTML = 'Hide answer';
+          } 
+        }
+
+        function toggleClock14() {
+          var x = document.getElementById("myDIV14");
+          var y = document.getElementById('clockButton14');
+          var z = x.style.display;
+
+          if (z == "block") {
+            x.style.display = "none";
+            y.innerHTML = 'Show answer';
+          } 
+
+          else {
+            x.style.display = "block";
+            y.innerHTML = 'Hide answer';
+          } 
+        }
+
+        function toggleClock15() {
+          var x = document.getElementById("myDIV15");
+          var y = document.getElementById('clockButton15');
+          var z = x.style.display;
+
+          if (z == "block") {
+            x.style.display = "none";
+            y.innerHTML = 'Show answer';
+          } 
+
+          else {
+            x.style.display = "block";
+            y.innerHTML = 'Hide answer';
+          } 
+        }
+
+        function toggleClock16() {
+          var x = document.getElementById("myDIV16");
+          var y = document.getElementById('clockButton16');
+          var z = x.style.display;
+
+          if (z == "block") {
+            x.style.display = "none";
+            y.innerHTML = 'Show answer';
+          } 
+
+          else {
+            x.style.display = "block";
+            y.innerHTML = 'Hide answer';
+          } 
+        }
+
+
 
 
 // </-------For Line Graph-------/>

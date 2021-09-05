@@ -321,7 +321,7 @@ h6 {
 }
 
 /* -----Books------ */
-.topic{
+.topic {
   text-align: center;
   font-size: x-large;
   color: #753a88;
@@ -456,9 +456,9 @@ h6 {
 
 .chapter {
   color: black;
-  text-align: left;
+  text-align:center;
   padding-top: 4vh;
-  padding-left: 58vw;
+  padding-left: 37vw;
 }
 
 .q1 {
@@ -484,7 +484,7 @@ h6 {
   border-radius: 7px;
 }
 
-.link{
+.link {
   margin-left: 24vw;
 }
 
@@ -498,34 +498,37 @@ h6 {
   font-size: 3vh;
 }
 
-table{
+table {
   border-collapse: collapse;
   margin-left: 7vw;
 }
 
-th, td{
+th,
+td {
   border: 2px solid black;
 }
 
-td{
+td {
   text-align: center;
   color: blue;
 }
 
-#chartContainer{
+#chartContainer {
   width: 100%;
   height: 400px;
 }
 
 .all_button {
-  /* margin-bottom: 20px; */
+  cursor: default;
+  align-items: center;
   margin-top: 7px;
-  margin-left: 31vw;
-  text-align: left;
+  margin-left: 26vw;
   border-radius: 7px;
   font-size: larger;
   color: white;
   background-color: green;
+  width: 20vw;
+  /* border: 2px solid red; */
 }
 
 .display_btn {
@@ -536,6 +539,7 @@ td{
   .q1 {
     font-size: 15px;
     text-align: left;
+    margin: 3vw 0 0 0;
   }
 
   .q11 {
@@ -550,7 +554,7 @@ td{
     font-size: 15px;
   }
 
-  .content{
+  .content {
     width: 50vw;
   }
 
@@ -566,19 +570,18 @@ td{
     height: 5vh;
     width: 40vw;
   }
-  
-  .all_button{
+
+  .all_button {
     font-size: 15px;
+    margin-left: 0;
+    width: 20vw;
+  }
+
+  .link {
     margin-left: 0;
   }
 
-  .link{
-    margin-left: 0;
-  }
-  
-  table{
+  table {
     margin-left: 0;
   }
 }
-
-
