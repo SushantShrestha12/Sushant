@@ -265,7 +265,3 @@ var navLinks = document.getElementById("navLinks")
           } 
         }
 
-
-
-
-// </-------For Line Graph-------/>
