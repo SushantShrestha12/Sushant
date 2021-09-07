@@ -583,5 +583,10 @@ td {
 
   table {
     margin-left: 0;
+    width: 50vw;
+  }
+
+  th {
+    font-size: 12px;
   }
 }
