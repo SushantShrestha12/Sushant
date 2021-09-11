@@ -620,6 +620,8 @@ th,
 
   .ans1 {
     font-size: 15px;
+    padding-right: 0;
+    margin-left: 0;
   }
 
   .chapter {
@@ -655,11 +657,6 @@ th,
 
   .link {
     margin-left: 0;
-  }
-
-  .ans1 {
-    margin-left: 0;
-    width: 50vw;
   }
 
   th {
