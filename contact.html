@@ -22,14 +22,14 @@
   </head>
 
   <body>
-    <section class="sub-header">
+    <div class="sub-header">
       <nav>
         <a href="index.html">
           <img class="img" src="book.png" alt="" />
         </a>
         <div class="nav-links" id="navLinks">
           <i class="fas fa-times" onclick="hideMenu()"></i>
-          <ul>
+          <ul class="unorder-list">
             <li><a href="index.html">Home</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="Books.html">Books</a></li>
@@ -42,35 +42,29 @@
       <div class="text">
         <h1>Contact Us</h1>
       </div>
-    </section>
+    </div>
 
-<!---------- Contact Us ----------->
+  <!-- Contact Us  -->
 <section class="contact-us">
   <div class="row">
     <div class="contact-col">
 
       <div>
         <i class="far fa-house-user"></i>
-        <span>
           <h5>Campus Road, Baglung</h5>
           <p>Provience 4, Nepal</p>
-        </span>
       </div>
 
       <div>
         <i class="far fa-envelope"></i>
-        <span>
           <h5>sthasushant1@gmail.com</h5>
           <p>Email us your query</p>
-        </span>
       </div>
 
       <div>
         <i class="far fa-phone-volume"></i>
-        <span>
           <h5>98--------</h5>
           <p>Sunday to Friday, 10AM to 6PM</p>
-        </span>
       </div>
 
     </div>
@@ -82,7 +76,7 @@
 
 
 
-    <!----- Footer ----->
+     <!-- Footer  -->
 
     <section class="footer">
       <h3>About Us</h3>
@@ -93,10 +87,10 @@
         <i class="fab fa-instagram"></i>
         <i class="fab fa-youtube"></i>
       </div>
-      <p> Made with <i class="far fa-heart"></i> by Sushant Shrestha</i></p>
+      <p> Made with <i class="far fa-heart"></i> by Sushant Shrestha</p>
     </section>
 
-  <!----- Java Script for toggle menu ----->
+   <!-- Java Script for toggle menu  -->
       <script>
         var navLinks = document.getElementById("navLinks")
         function showMenu(){
