@@ -412,14 +412,23 @@ h6 {
   display: flex;
 }
 
+.economics{
+  display: flex;
+}
+
 .content {
   background-color: #f8ceec;
   background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
   margin: 0 1vw 0 1vw;
-  width: 30vw;
 }
 
 .content2 {
+  background-color: #f8ceec;
+  background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+  margin: 0 1vw 0 1vw;
+}
+
+.content3 {
   background-color: #f8ceec;
   background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
   margin: 0 1vw 0 1vw;
@@ -467,11 +476,23 @@ h6 {
   width: 70vw;
 }
 
+.Eco_sub {
+  margin-right: 1vw;
+  width: 70vw;
+}
+
 .accountancy {
   margin-right: 5vw;
 }
 
 .chapter {
+  color: black;
+  text-align:center;
+  padding-top: 4vh;
+  padding-left: 37vw;
+}
+
+.eco_chapters {
   color: black;
   text-align:center;
   padding-top: 4vh;
@@ -488,6 +509,14 @@ h6 {
   text-align: justify;
   padding: 0 0 0 5vw;
   margin: 4vh 0 0 0;
+}
+
+.eco_qsn {
+  color: red;
+  text-align: justify;
+  padding: 0 5vw 0 5vw;
+  margin: 4vh 0 0 0;
+  font-size: 20px;
 }
 
 .acc_qsn {
@@ -527,6 +556,15 @@ h6 {
   font-size: 3vh;
   border-collapse: collapse;
   margin-left: 5vw;
+}
+
+.eco_ans {
+  padding: 0 5vw 0 0;
+  text-align: justify;
+  font-size: 3vh;
+  border-collapse: collapse;
+  margin-left: 5vw;
+  font-size: 20px;
 }
 
 .journal {
@@ -604,11 +642,22 @@ th,
 }
 
 @media screen and (max-width: 700px) {
+  .economics {
+    display: inline;
+  }
+
   .q1 {
     font-size: 15px;
     text-align: justify;
-    margin: 3vw 0 0 0;
-    padding-left: 0;
+    margin: 3vh 2vw 0 0;
+    padding-left: 0vw;
+  }
+
+  .eco_qsn {
+    font-size: 15px;
+    text-align: justify;
+    margin: 3vh 5vw 0 5vw;
+    padding-left: 0vw;
   }
 
   .q11 {
@@ -622,11 +671,28 @@ th,
   .ans1 {
     font-size: 15px;
     padding-right: 0;
-    margin-left: 0;
+    margin: 0 2vw 0 0;
   }
+
+  .eco_ans {
+    font-size: 15px;
+    padding: 0;
+    margin: 0 5vw 0 5vw;
+  }
+
 
   .chapter {
     font-size: 15px;
+  }
+
+  .Eco_sub {
+    width: 100vw;
+  }
+
+  .eco_chapters {
+    font-size: 15px;
+    text-align: center;
+    padding: 3vh 0 2vh 0;
   }
 
   .chapter2{
