@@ -557,7 +557,7 @@ h6 {
   color: red;
   text-align: justify;
   padding-left: 5vw;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .q11 {
@@ -638,6 +638,7 @@ th,
   text-align: left;
   color: blue;
   width: 40vw;
+  font-size: 22px;
 }
 
 .lf{
@@ -652,6 +653,7 @@ th,
   text-align:center;
   position: relative;
   bottom: 4vh;
+  font-size: 20px;
 }
 
 .credit{
@@ -660,6 +662,7 @@ th,
   text-align:center;
   position: relative;
   bottom: 1.5vh;
+  font-size: 20px;
 }
 
 #chartContainer {
@@ -809,6 +812,7 @@ th,
 
   .particulars{
     width: 90vw;
+    font-size: 15px;
   }
 
   .journal{
@@ -819,11 +823,13 @@ th,
     font-size: 15px;
     position: relative;
     bottom: 3.3vh;
+    font-size: 15px;
   }
 
   .credit{
     font-size: 15px;
     position: relative;
     bottom: 1.6vh;
+    font-size: 15px;
   }
 }
