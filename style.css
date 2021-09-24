@@ -198,7 +198,7 @@ li:hover::after {
   margin-top: 80px;
 }
 
-.contact-col div .far {
+.contact-col div .fas {
   font-size: 28px;
   color: red;
   margin: 10px 10px 10px 350px;
@@ -220,10 +220,11 @@ li:hover::after {
   .text h1 {
     font-size: 20px;
   }
-  .contact-col div .far {
+  .contact-col div .fas {
     margin: 20px;
   }
 }
+
 
 /*----- Python -----*/
 .python {
