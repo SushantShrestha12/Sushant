@@ -7,6 +7,7 @@ window.onload = function () {
       },
       axisX:{
 		valueFormat: "Number",
+    title: "Units of output",
 		crosshair: {
 			enabled: true,
 			snapToDataPoint: true
@@ -23,28 +24,32 @@ window.onload = function () {
       data: [
         {
           type: "line",
+          name: "TR",
+          showInLegend: true,
           indexLabelFontSize: 16,
           dataPoints: [
-            { y: 5 }, 
-            { y: 10 }, 
-            { y: 15 }, 
-            { y: 20 }, 
-            { y: 25 },
-            { y: 30 },
-            { y: 35 }],
+            { x:1, y: 5 }, 
+            { x:2, y: 10 }, 
+            { x:3, y: 15 }, 
+            { x:4, y: 20 }, 
+            { x:5, y: 25 },
+            { x:6, y: 30 },
+            { x:7, y: 35 }],
         },
 
         {
             type: "line",
+            name: "AR=MR",
+            showInLegend: true,
             indexLabelFontSize: 16,
             dataPoints: [
-              { y: 5 }, 
-              { y: 5 }, 
-              { y: 5 }, 
-              { y: 5 }, 
-              { y: 5 },
-              { y: 5 },
-              { y: 5 }],
+              { x:1, y: 5 }, 
+              { x:2, y: 5 }, 
+              { x:3, y: 5 }, 
+              { x:4, y: 5 }, 
+              { x:5, y: 5 },
+              { x:6, y: 5 },
+              { x:7, y: 5 }],
           },
 
       ],
