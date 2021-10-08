@@ -656,8 +656,8 @@ th,
   border: 2px solid black;
   width: 10vw;
   text-align:center;
-  position: relative;
-  bottom: 4vh;
+  /* position: relative;
+  bottom: 4vh; */
   font-size: 20px;
 }
 
