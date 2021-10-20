@@ -13,6 +13,13 @@
       content="Account note class 12, Accounting for debenture, Debentures class 12 notes"
     />
 
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -37,7 +44,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="background">
     <section class="sub-header">
       <nav>
         <a href="index.html">
@@ -102,10 +109,10 @@
     </div>
     <br />
 
-    <h2 class="chapter2">(II)Accounting for Material and Material Control</h2>
     <br />
 
     <div class="accountancy">
+      <h2 class="chapter2">(II)Accounting for Material and Material Control</h2>
       <h2 class="acc_qsn">Short answer questions</h2>
 
       <p class="acc_qsn">
@@ -118,17 +125,30 @@
       </p>
 
       <div>
-        <p class="acc_qsn">(a) Average lead time <br /></p>
+        <p class="acc_qsn">
+          Solution: <br />
+          (a) Average lead time <br />
+        </p>
 
         <p class="acc_ans">
-          (2+4)/2 <br />
-          = 3 days.
+          <math>
+          <mfrac>
+            <mn> 2+4 </mn>
+            <mn> 2 </mn>
+          </mfrac>
+        </math> <br>
+        = 3 days.
         </p>
 
         <p class="acc_qsn">(b) Average usage <br /></p>
 
         <p class="acc_ans">
-          (400 + 600)/2 <br />
+          <math>
+            <mfrac>
+              <mn> (400 + 600 ) </mn>
+              <mn> 2 </mn>
+            </mfrac>
+          </math> <br>
           = 500 units.
         </p>
 
@@ -154,32 +174,61 @@
       </p>
 
       <div>
-        <p class="acc_qsn">(a) Daily minimum usage <br /></p>
+        <p class="acc_qsn">
+          Solution: <br />
+          (a) Daily minimum usage <br />
+        </p>
 
         <p class="acc_ans">
-          120/6 <br />
+          <math>
+            <mfrac>
+              <mn> 120 </mn>
+              <mn> 6 </mn>
+            </mfrac>
+          </math> <br>
           = 20 units.
         </p>
 
         <p class="acc_qsn">(b) Daily maximum usage <br /></p>
 
         <p class="acc_ans">
-          240/6 <br />
+          <math>
+            <mfrac>
+              <mn> 240 </mn>
+              <mn> 6 </mn>
+            </mfrac>
+          </math> <br>
           = 40 units.
         </p>
 
         <p class="acc_qsn">(c) Average daily usage <br /></p>
 
         <p class="acc_ans">
-          (20 + 40)/2 <br />
-          = 60/2 <br />
+          <math>
+            <mfrac>
+              <mn> 20 + 40 </mn>
+              <mn> 2 </mn>
+            </mfrac>
+          </math> <br>
+          <math>
+            <mo> = </mo> 
+            <mfrac>
+              <mn> 60 </mn>
+              <mn> 2 </mn>
+            </mfrac>
+          </math> <br>
           = 30 units.
         </p>
 
         <p class="acc_qsn">(d) Average lead time <br /></p>
 
         <p class="acc_ans">
-          (4+6)/6 <br />
+          <math>
+            <mfrac>
+              <mn> (4+6) </mn>
+              <mn> 6 </mn>
+            </mfrac>
+          </math> <br>
           = 5 days.
         </p>
 
@@ -201,7 +250,10 @@
       </p>
 
       <div>
-        <p class="acc_qsn">(a) Reordering point <br /></p>
+        <p class="acc_qsn">
+          Solution: <br />
+          (a) Reordering point <br />
+        </p>
 
         <p class="acc_ans">
           Max lead time x Max usage <br />
@@ -212,11 +264,11 @@
         <p class="acc_qsn">(b) Maximum stock level <br /></p>
 
         <p class="acc_ans">
-            ROL - (Normal usage x Normal lead time) <br />
-            = 28000 - (5000 x 3) <br />
-            = 13000 units.
+          ROL - (Normal usage x Normal lead time) <br />
+          = 28000 - (5000 x 3) <br />
+          = 13000 units.
         </p>
-        
+
         <p class="acc_qsn">
           4. Following informaton are given:<br />
           Reorder quantity &emsp;&emsp; 10000 units<br />
@@ -225,205 +277,379 @@
           Required: (a) Average stock level.
         </p>
 
-          <div>
-            <p class="acc_qsn">(a) Average stock level.</p>
-    
-            <p class="acc_ans">
-             Min stock level + &frac12; of ROQ <br />
-              = 3000 + &frac12; x 10000 <br />
-              = 3000 + 5000
-              = 8000 units.
-            </p>
-          </div>
+        <div>
+          <p class="acc_qsn">
+            Solution: <br />
+            (a) Average stock level.
+          </p>
+
+          <p class="acc_ans">
+            Min stock level + &frac12; of ROQ <br />
+            = 3000 + &frac12; x 10000 <br />
+            = 3000 + 5000 = 8000 units.
+          </p>
+        </div>
 
         <p class="acc_qsn">
-            5. XYZ Company provides the following information: <br />
-            Reorder period &emsp;&emsp; 4-8 days <br />
-            Reorder quantity &emsp;&emsp; 7000 units <br />
-            Material consumed per day &emsp;&emsp; 500 to 1500 units <br />
-            Required: (a) Reorder level <br />
-            (b)  Minimum stock level <br />
-            (c) Maximum stock level <br />
-            (d) Average stock level 
+          5. XYZ Company provides the following information: <br />
+          Reorder period &emsp;&emsp; 4-8 days <br />
+          Reorder quantity &emsp;&emsp; 7000 units <br />
+          Material consumed per day &emsp;&emsp; 500 to 1500 units <br />
+          Required: (a) Reorder level <br />
+          (b) Minimum stock level <br />
+          (c) Maximum stock level <br />
+          (d) Average stock level
+        </p>
+
+        <div>
+          <p class="acc_qsn">
+            Solution: <br />
+            (a) Reorder level <br />
           </p>
-    
-          <div>
-            <p class="acc_qsn">(a) Reorder level <br /></p>
-    
-            <p class="acc_ans">
-              Max lead time x max usage <br />
-              = 8 x 1500 <br>
-              = 12000 units.
-            </p>
-    
-            <p class="acc_qsn">(b) Minimum stock level <br /></p>
-    
-            <p class="acc_ans">
-              ROL - (Normal usage x Normal lead time) <br />
-              = 12000 - (1000 x 6) <br>
-              = 6000 units.
-            </p>
-    
-            <p class="acc_qsn">(c) Maximum stock level <br /></p>
-    
-            <p class="acc_ans">
-              (ROL + ROQ) - (min usage x min lead time) <br />
-              = (12000 + 7000) - (500 x 4) <br />
-              = 19000-2000 <br>
-              = 17000 units.
-            </p>
-    
-            <p class="acc_qsn">(d) Average stock level <br /></p>
-    
-            <p class="acc_ans">
-            Min stock level + &frac12; ROQ <br>
+
+          <p class="acc_ans">
+            Max lead time x max usage <br />
+            = 8 x 1500 <br />
+            = 12000 units.
+          </p>
+
+          <p class="acc_qsn">(b) Minimum stock level <br /></p>
+
+          <p class="acc_ans">
+            ROL - (Normal usage x Normal lead time) <br />
+            = 12000 - (1000 x 6) <br />
+            = 6000 units.
+          </p>
+
+          <p class="acc_qsn">(c) Maximum stock level <br /></p>
+
+          <p class="acc_ans">
+            (ROL + ROQ) - (min usage x min lead time) <br />
+            = (12000 + 7000) - (500 x 4) <br />
+            = 19000-2000 <br />
+            = 17000 units.
+          </p>
+
+          <p class="acc_qsn">(d) Average stock level <br /></p>
+
+          <p class="acc_ans">
+            Min stock level + &frac12; ROQ <br />
             6000 + &frac12; x 7000<br />
-              = 9500 units.
-            </p>
+            = 9500 units.
+          </p>
         </div>
 
         <p class="acc_qsn">
-            6. A Manufacturing Compant provides the following information: <br />
-            Lead time &emsp;&emsp; 2-4 days <br />
-            Daily usage &emsp;&emsp; 1000-2000 units <br />
-            Required: (a) Average or normal lead time <br />
-            (b) Average or normal usage <br />
-            (c) Reorder level <br />
-            (d) Minimum stock level 
+          6. A Manufacturing Compant provides the following information: <br />
+          Lead time &emsp;&emsp; 2-4 days <br />
+          Daily usage &emsp;&emsp; 1000-2000 units <br />
+          Required: (a) Average or normal lead time <br />
+          (b) Average or normal usage <br />
+          (c) Reorder level <br />
+          (d) Minimum stock level
+        </p>
+
+        <div>
+          <p class="acc_qsn">
+            Solution: <br />
+            (a) Average or normal lead time
           </p>
-    
-          <div>
-            <p class="acc_qsn">(a)  Average or normal lead time</p>
-    
-            <p class="acc_ans">
-              3 days
-            </p>
-    
-            <p class="acc_qsn">(b) Average or normal usage </p>
-    
-            <p class="acc_ans">
-              1500 units
-            </p>
-    
-            <p class="acc_qsn">(c) Reorder level <br /></p>
-    
-            <p class="acc_ans">
-              Max lead time x Max usage <br>
-              = 4 x 2000 <br>
-              = 8000 units
-            </p>
-    
-            <p class="acc_qsn">(d) Minimum stock level <br /></p>
-    
-            <p class="acc_ans">
-                (d) ROL - (Normal usage x Normal lead time)  <br>
-              = 8000 - (1500 x 3) <br />
-              = 3500 units.
-            </p>
+
+          <p class="acc_ans">3 days</p>
+
+          <p class="acc_qsn">(b) Average or normal usage</p>
+
+          <p class="acc_ans">1500 units</p>
+
+          <p class="acc_qsn">(c) Reorder level <br /></p>
+
+          <p class="acc_ans">
+            Max lead time x Max usage <br />
+            = 4 x 2000 <br />
+            = 8000 units
+          </p>
+
+          <p class="acc_qsn">(d) Minimum stock level <br /></p>
+
+          <p class="acc_ans">
+            (d) ROL - (Normal usage x Normal lead time) <br />
+            = 8000 - (1500 x 3) <br />
+            = 3500 units.
+          </p>
         </div>
 
         <p class="acc_qsn">
-            7. Following details are given to you: <br />
-            Repurchase period(Lead time) &emsp;&emsp; 4-6 days <br />
-            Daily usage or need &emsp;&emsp; 200-400 units <br />
-            Required: (a) Reorder level <br />
-            (b) Minimum stock level 
+          7. Following details are given to you: <br />
+          Repurchase period(Lead time) &emsp;&emsp; 4-6 days <br />
+          Daily usage or need &emsp;&emsp; 200-400 units <br />
+          Required: (a) Reorder level <br />
+          (b) Minimum stock level
+        </p>
+
+        <div>
+          <p class="acc_qsn">
+            Solution: <br />
+            (a) Reorder level <br />
           </p>
-    
-          <div>
-            <p class="acc_qsn">(a) Reorder level <br /></p>
-    
-            <p class="acc_ans">
-              Max lead time x max usage <br />
-              = 400 x 6 <br>
-              = 2400 units.
-            </p>
-    
-            <p class="acc_qsn">(b) Minimum stock level <br /></p>
-    
-            <p class="acc_ans">
-              ROL - (Normal usage x Normal lead time) <br />
-              = 2400 - (300 x 5) <br>
-              = 900 units.
-            </p>
+
+          <p class="acc_ans">
+            Max lead time x max usage <br />
+            = 400 x 6 <br />
+            = 2400 units.
+          </p>
+
+          <p class="acc_qsn">(b) Minimum stock level <br /></p>
+
+          <p class="acc_ans">
+            ROL - (Normal usage x Normal lead time) <br />
+            = 2400 - (300 x 5) <br />
+            = 900 units.
+          </p>
         </div>
 
         <p class="acc_qsn">
-            8. The following is avaliable in respect of a material: <br />
-            Lead time &emsp;&emsp; 4-6 weeks (6 days = 1 week) <br />
-            Daily usage &emsp;&emsp; 100-200 units <br />
-            Required: (a) Weekly maximum, average and minimum usage  <br />
-            (b) Reorder level
-            (c) Minimum stock level 
+          8. The following is avaliable in respect of a material: <br />
+          Lead time &emsp;&emsp; 4-6 weeks (6 days = 1 week) <br />
+          Daily usage &emsp;&emsp; 100-200 units <br />
+          Required: (a) Weekly maximum, average and minimum usage <br />
+          (b) Reorder level (c) Minimum stock level
+        </p>
+
+        <div>
+          <p class="acc_qsn">
+            Solution: <br />
+            (a) Weekly maximum, average and minimum usage
           </p>
-    
-          <div>
-            <p class="acc_qsn">(a) Weekly maximum, average and minimum usage</p>
-    
-            <p class="acc_ans">
-              Weekly maximum <br />
-              = 200 x 6 <br>
-              = 1200 units. <br> <br>
 
-              Weekly minimum <br />
-              = 100 x 6 <br>
-              = 600 units. <br> <br>
+          <p class="acc_ans">
+            Weekly maximum <br />
+            = 200 x 6 <br />
+            = 1200 units. <br />
+            <br />
 
-              Average usage <br />
-              = (1200 + 600) / 2 <br>
-              = 900 units.
-            </p>
-    
-            <p class="acc_qsn">(b) Reorder level</p>
-    
-            <p class="acc_ans">
-              6 x 1200 <br />
-              = 7200 units.
-            </p>
+            Weekly minimum <br />
+            = 100 x 6 <br />
+            = 600 units. <br />
+            <br />
 
-            <p class="acc_qsn">(c) Minimum stock level </p>
-    
-            <p class="acc_ans">
-              ROL - (Normal usage x Normal lead time) <br />
-              = 7200 - (900 x 5) units. <br>
-              = 2700 units.
-            </p>
+            Average usage <br />
+            <math>
+              <mfrac>
+                <mn> (1200 + 600 ) </mn>
+                <mn> 2 </mn>
+              </mfrac>
+            </math> <br>
+            = 900 units.
+          </p>
+
+          <p class="acc_qsn">(b) Reorder level</p>
+
+          <p class="acc_ans">
+            6 x 1200 <br />
+            = 7200 units.
+          </p>
+
+          <p class="acc_qsn">(c) Minimum stock level</p>
+
+          <p class="acc_ans">
+            ROL - (Normal usage x Normal lead time) <br />
+            = 7200 - (900 x 5) units. <br />
+            = 2700 units.
+          </p>
         </div>
 
         <p class="acc_qsn">
-            9. A Manufacturing Company provides you the following: <br />
-            Consumption per day &emsp;&emsp; 500-1500 units (6 days = 1 week) <br />
-            Lead time &emsp;&emsp; 3-5 days <br />
-            Reorder quantity &emsp;&emsp; 4000 units <br />
-            Required: (a) Reordering point <br />
-            (b) Maximum stock limit <br>
-            (c) Average stock 
-          </p>
-    
-          <div>
-            <p class="acc_qsn">(a) Reordering point</p>
-    
-            <p class="acc_ans">
-               5 x 1500 <br>
-              = 7500 units. <br> <br>
-            </p>
-    
-            <!-- <p class="acc_qsn">(b) Maximum stock limit </p>
-    
-            <p class="acc_ans">
-              6 x 1200 <br />
-              = 7200 units.
-            </p>
+          9. A Manufacturing Company provides you the following: <br />
+          Consumption per day &emsp;&emsp; 500-1500 units (6 days = 1 week)
+          <br />
+          Lead time &emsp;&emsp; 3-5 days <br />
+          Reorder quantity &emsp;&emsp; 4000 units <br />
+          Required: (a) Reordering point <br />
+          (b) Maximum stock limit <br />
+          (c) Average stock
+        </p>
 
-            <p class="acc_qsn">(c) Average stock </p>
-    
-            <p class="acc_ans">
-              ROL - (Normal usage x Normal lead time) <br />
-              = 7200 - (900 x 5) units. <br>
-              = 2700 units.
-            </p> -->
+        <div>
+          <p class="acc_qsn">
+            Solution: <br />
+            (a) Reordering point
+          </p>
+
+          <p class="acc_ans">
+            5 x 1500 <br />
+            = 7500 units. <br />
+            <br />
+          </p>
+
+          <p class="acc_qsn">(b) Maximum stock limit</p>
+
+          <p class="acc_ans">
+            (ROL + ROQ) - (min usage x min lead time) <br />
+            = (7500 + 4000) - (500 x 3) <br />
+            = 11500 - 1500 <br />
+            = 10000 units.
+          </p>
+
+          <p class="acc_qsn">(c) Average stock</p>
+
+          <p class="acc_ans">
+            Minimum stock level + &frac12; of ROQ <br />
+            = 3500 - &frac12; x 7500 <br />
+            = 7250 units.
+          </p>
         </div>
 
+        <p class="acc_qsn">
+          10. Following information related to a Company are given to you:
+          <br />
+          Reorder period &emsp;&emsp; 6 to 8 days <br />
+          Maximum consumption &emsp;&emsp; 200 units per day <br />
+          Minimum consumption &emsp;&emsp; 5 units per day <br />
+          Reorder quantity &emsp;&emsp; 5000 units <br />
+          Required: (a) Reordering level<br />
+          (b) Maximum stock limit
+        </p>
+
+        <div>
+          <p class="acc_qsn">
+            Solution: <br />
+            (a) Reordering period
+          </p>
+
+          <p class="acc_ans">
+            2000 x 8 <br />
+            = 16000 units. <br />
+            <br />
+          </p>
+
+          <p class="acc_qsn">(b) Maximum stock level</p>
+
+          <p class="acc_ans">
+            (ROL + ROQ) - (min usage x min lead time) <br />
+            = (16000 + 5000) - (500 x 6) <br />
+            = 21000 - 3000 <br />
+            = 18000 units.
+          </p>
+        </div>
+
+        <p class="acc_qsn">
+          11. The purchase manager of a Company has collected the following
+          data: <br />
+          Daily consumption &emsp;&emsp; 100 to 200 units <br />
+          Reorder period &emsp;&emsp; 10-20 days <br />
+          Maximum stock level &emsp;&emsp; 5000 units <br />
+          Required: (a) Reordering point<br />
+          (b) Reorder quantity
+        </p>
+
+        <div>
+          <p class="acc_qsn">
+            Solution: <br />
+            (a) Reordering point
+          </p>
+
+          <p class="acc_ans">
+            200 x 20 <br />
+            = 4000 units. <br />
+            <br />
+          </p>
+
+          <p class="acc_qsn">(b) Reordering quantity</p>
+
+          <p class="acc_ans">
+            (Maximum stock level - ROL) + (Minimum usage x min lead time) <br />
+            = (5000-4000) - (100 x 10) <br />
+            = 21000 - 3000 <br />
+            = 2000 units.
+          </p>
+        </div>
+
+        <p class="acc_qsn">
+          12. The following information is avaliable in respect of a material:
+          <br />
+          Reorder level &emsp;&emsp; 1800 units <br />
+          Reorder period &emsp;&emsp; 4 to 6 days <br />
+          Maximum stock level &emsp;&emsp; 6000 units <br />
+          Maximum usage &emsp;&emsp; 250 units <br />
+          Required: (a) Reorder quantity
+        </p>
+
+        <div>
+          <p class="acc_qsn">Solution: (a) Reordering quantity</p>
+
+          <p class="acc_ans">
+            (Maximum stock level - ROL) + (Minimum usage x min lead time) <br />
+            = (6000-1800) + (250 x 4) <br />
+            = 5200 units.
+          </p>
+        </div>
+
+        <p class="acc_qsn">
+          13. Calculate economic order (EOQ) and EOQ No. of order from the
+          following. <br />
+          Annual requirement or demand &emsp;&emsp; 8000 units <br />
+          Purchase price per unit &emsp;&emsp; Rs. 10 <br />
+          Ordering cost per unit &emsp;&emsp; Rs. 30 <br />
+          Carrying cost per unit &emsp;&emsp; Rs. 30% of unit price
+        </p>
+
+        <div>
+          <p class="acc_qsn">Solution: (a) EOQ</p>
+
+          <p class="acc_ans">
+            <math>
+              <msqrt>
+                <mfrac>
+                <mn> 2AO </mn>
+                <mi> C </mi>
+              </mfrac>
+              </msqrt>
+            </math> <br> <br>
+            
+            <mo> = </mo>
+
+            <math>
+            <msqrt>
+              <mfrac>
+              <mn> 2 x 8 0 0 0 x 30 </mn>
+              <mi> 3 </mi>
+            </mfrac>
+            </msqrt>
+          </math> <br> <br>
+          = 400 units.
+          </p>
+        </div>
+
+        <div>
+          <p class="acc_qsn">(b) No. of order </p>
+
+          <p class="acc_ans">
+            <math>
+              <msqrt>
+                <mfrac>
+                <mi> A </mi>
+                <mi> EOQ </mi>
+              </mfrac>
+              </msqrt>
+            </math> <br> <br>
+
+            <mo>=</mo>
+
+            <math>
+              <msqrt>
+                <mfrac>
+                <mn> 8000 </mn>
+                <mn> 400 </mn>
+              </mfrac>
+              </msqrt>
+            </math> <br> <br>
+            
+          = 20 times.
+          </p>
+        </div>
+
+
+      </div>
     </div>
 
     <!-- Footer -->
