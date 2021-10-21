@@ -200,6 +200,13 @@ li:hover::after {
   font-size: 20px;
 }
 
+.network_mdl{
+  margin-top: 2vh;
+  margin-left: 14vw;
+  width: 35vw;
+  height: 50vh;
+}
+
 /* Media quaries for computer */
 @media screen and (max-width: 700px) {
   .computer {
@@ -239,6 +246,13 @@ li:hover::after {
 
   .chap {
     font-size: 15px;
+  }
+
+  .network_mdl{
+    margin-top: 2vh;
+    margin-left: 17vw;
+    width: 69vw;
+    height: 50vh;
   }
 }
 
