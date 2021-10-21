@@ -225,39 +225,6 @@ li:hover::after {
   }
 }
 
-
-/*----- Python -----*/
-.python {
-  background-color: black;
-}
-
-.pattern {
-  width: 80%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.h5 {
-  font-size: 30px;
-  color: red;
-  margin: 20px 0px 0px 40px;
-  padding: 20px 10px 0px 120px;
-}
-
-.container {
-  font-size: 20px;
-  padding: 20px 30px;
-  margin: 20px 0px 80px 0px;
-  border-color: green;
-  border-style: none none none solid;
-  border-width: 7px;
-  background-color: blanchedalmond;
-  width: 300px;
-  line-height: 1.9;
-}
-
 .container2 {
   width: 400px;
   height: 400px;
@@ -402,6 +369,10 @@ h6 {
 }
 
 /* ------- All Subjects ------- */
+.background{
+  background-color:#FFFFF0;
+}
+
 .description {
   text-align: center;
   margin-top: 10vh;
