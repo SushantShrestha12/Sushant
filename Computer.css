@@ -257,6 +257,27 @@ li:hover::after {
   margin-left: 10vw;
 }
 
+.table1{
+  border-collapse: collapse;
+  margin-left: 5vw ;
+  margin-right: 5vw;
+
+}
+
+.table_head1{
+  border: 2px solid black;
+  text-align: center;
+  width: 30vw;
+  color: red;
+}
+
+.table_data1{
+  border: 2px solid black;
+  text-align: center;
+  width: 30vw;
+  text-align: justify;
+}
+
 /* Media quaries for computer */
 @media screen and (max-width: 700px) {
   .computer {
@@ -352,6 +373,26 @@ li:hover::after {
     width: 70vw;
     height: 55vh;
     margin-left: 15vw;
+  }
+
+  .table1{
+    border-collapse: collapse;
+    margin-left: 5vw;
+  }
+
+  .table_head1{
+    border: 2px solid black;
+    text-align: center;
+    width: 50vw;
+    color: red;
+    font-size: 15px;
+  }
+
+  .table_data1{
+    border: 2px solid black;
+    text-align: left;
+    width: 50vw;
+    font-size: 15px;
   }
 }
 
