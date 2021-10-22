@@ -628,6 +628,42 @@
         </ul>
       </div>
 
+      <p class="com_qsn">Second normal form:-</p>
+      <img src="second-normal-form.gif" alt="Second normal form figure" class="second_NF">
+
+      <p class="com_qsn"> Third Normal Form (3NF) </p>
+      <p class="com_qsn"> Requirement to be third normal form: </p>
+      <div>
+        <ul>
+          <li class="com_ans">
+            Table should be already in 2NF
+          </li>
+
+          <li class="com_ans">
+            There should be no non-key attribute that determines next non-key attributes, i.e. there should be no transitive dependency.
+          </li>
+        </ul>
+      </div>
+
+      <p class="com_qsn"> Steps to convert into 3NF </p>
+      <div>
+        <ul>
+          <li class="com_ans">
+            Identify new daterminant attribute, i.e. non key attribute of the table which is acting as determining factor for other non-key attributes.
+          </li>
+
+          <li class="com_ans">
+            Determine all dependent attributes.
+          </li>
+
+          <li class="com_ans">
+            Create a new table with determinant as primary key and remaining dependent attributes as non-key attributes of new table.
+          </li>
+        </ul>
+      </div>
+
+      <img src="third-normal-form.jpg" alt="Third normal form figure" class="third_NF">
+
     </div>
   </div>
 

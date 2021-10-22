@@ -220,6 +220,9 @@ li:hover::after {
 
 .table{
   border-collapse: collapse;
+  margin-left: 5vw ;
+  margin-right: 5vw;
+
 }
 
 .table_head{
@@ -234,6 +237,24 @@ li:hover::after {
   text-align: center;
   width: 20vw;
   text-align: justify;
+}
+
+.First_NF{
+  width: 40vw;
+  height: 60vh;
+  margin-left: 10vw;
+}
+
+.second_NF{
+  width: 40vw;
+  height: 60vh;
+  margin-left: 10vw;
+}
+
+.third_NF{
+  width: 40vw;
+  height: 60vh;
+  margin-left: 10vw;
 }
 
 /* Media quaries for computer */
@@ -313,6 +334,24 @@ li:hover::after {
     text-align: left;
     width: 20vw;
     font-size: 15px;
+  }
+
+  .First_NF{
+    width: 70vw;
+    height: 40vh;
+    margin-left: 15vw;
+  }
+
+  .second_NF{
+    width: 70vw;
+    height: 45vh;
+    margin-left: 15vw;
+  }
+
+  .third_NF{
+    width: 70vw;
+    height: 55vh;
+    margin-left: 15vw;
   }
 }
 
