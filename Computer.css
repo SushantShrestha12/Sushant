@@ -207,6 +207,35 @@ li:hover::after {
   height: 50vh;
 }
 
+.hiararchical_mdl{
+  width: 40vw;
+  margin-left: 10vw;
+}
+
+.relational_mdl{
+  margin-left: 5vw;
+  width: 50vw;
+  height: 35vw;
+}
+
+.table{
+  border-collapse: collapse;
+}
+
+.table_head{
+  border: 2px solid black;
+  text-align: center;
+  width: 20vw;
+  color: red;
+}
+
+.table_data{
+  border: 2px solid black;
+  text-align: center;
+  width: 20vw;
+  text-align: justify;
+}
+
 /* Media quaries for computer */
 @media screen and (max-width: 700px) {
   .computer {
@@ -253,6 +282,37 @@ li:hover::after {
     margin-left: 17vw;
     width: 69vw;
     height: 50vh;
+  }
+
+  .hiararchical_mdl{
+    width: 80vw;
+    height: 30vh;
+    margin-left: 10vw;
+  }
+
+  .relational_mdl{
+    width: 95vw;
+    height: 75vw;
+  }
+
+  .table{
+    border-collapse: collapse;
+    margin-left: 5vw;
+  }
+
+  .table_head{
+    border: 2px solid black;
+    text-align: center;
+    width: 30vw;
+    color: red;
+    font-size: 15px;
+  }
+
+  .table_data{
+    border: 2px solid black;
+    text-align: left;
+    width: 20vw;
+    font-size: 15px;
   }
 }
 

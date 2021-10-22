@@ -314,7 +314,6 @@
 
         <p class="com_qsn">Properties of Candidate Key</p>
         <div>
-          <p class="com_ans">
             <ul>
              <li class="com_ans">
               It must contain unique values.
@@ -336,7 +335,6 @@
                 Uniquely identify each record in table.
               </li>
               </ul>
-          </p>
         </div>
 
         <p class="com_qsn">DDL and DML</p>
@@ -398,6 +396,107 @@
         </div>
 
         <img src="Network_Model.jpg" alt="Network model" class="network_mdl">
+
+        <p class="com_qsn">(2) Hierarchical Model</p>
+        <div>
+          <p class="com_ans">
+            A hierarchical database model employs a tree structure to describe the relationship between record nodes, with one record functioning as the parent of numerous child record nodes.
+          </p>
+        </div>
+
+        <p class="com_qsn">Features of hierarchical database model</p>
+        <div>
+            <ul>
+             <li class="com_ans">
+              Each hiararchical tree can have one record type and any number of child record type.
+              </li>
+
+              <li class="com_ans">
+                Each child record can have only one parent record type which makes representation for many to many relationship impossible.
+              </li>
+
+              <li class="com_ans">
+                Data in present record applies to all its children records.
+              </li>
+
+              <li class="com_ans">
+                A child records occurance must have a parent record occurance and by deleting parent record results in deleting all of its children record occurance.
+              </li>
+        </div>
+
+        <img src="hierarchical-database-diagram.png" alt="Hierarchical model" class="hiararchical_mdl">
+
+        <p class="com_qsn">(2) Relational Database Model</p>
+        <div>
+          <p class="com_ans">
+            Relational database model represents each item of data stored in a relation or table. Each table is identified by a name and each table consists of attributes which are column names of a table.
+          </p>
+        </div>
+
+        <img src="Relational database model.001.jpeg" alt="Hierarchical model" class="relational_mdl">
+
+        <p class="com_qsn">Difference between Hiararchical, Network and Relational database model</p>
+        <div>
+          <table class="table">
+            <th class="table_head">Hiararchical DBM</th>
+            <th class="table_head">Network DBM</th>
+            <th class="table_head">Relational DBM</th>
+
+            <tr>
+              <td class="table_data">Relationship between records is of the parent child type.</td>
+              <td class="table_data">Relationship between records is expressed in the form of pointers.</td>
+              <td class="table_data">Relationship between records is represented by a relation that contain a key for each record involved in the relationship.</td>
+            </tr>
+
+            <tr>
+              <td class="table_data">
+                Many to many relationship cannot be expressed in this model.
+              </td>
+              <td class="table_data">
+                Many to many relationships can be easily implemented.
+              </td>
+              <td class="table_data">
+                Many to many relationship can easily implemented.
+              </td>
+            </tr>
+
+            <tr>
+              <td class="table_data">
+                It is a simple, straight forward and natural methord of implementing records relationships.
+              </td>
+              <td class="table_data">
+                Records relationship implementation is quite complex due to use of pointers.
+              </td>
+              <td class="table_data">
+                Relationship implementation is very easy through the use of a key or composite key field.
+              </td>
+            </tr>
+
+            <tr>
+              <td class="table_data">
+                Searching for a record is very difficult since one can retrive a child only after going through its parent record.
+              </td>
+              <td class="table_data">
+                Searching for a record is very easy since there are multiple access paths to a data element.
+              </td>
+              <td class="table_data">
+                A uniquely, indexed key field is used to search for a data element.
+              </td>
+            </tr>
+
+            <tr>
+              <td class="table_data">
+                In hiararchical model records are physical.
+              </td>
+              <td class="table_data">
+                In network model records are physical.
+              </td>
+              <td class="table_data">
+                In relational model database is organized logically in the form of rows and column and stored in table.
+              </td>
+            </tr>
+          </table>
+        </div>
 
       </div>
     </div>
