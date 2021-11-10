@@ -1,10 +1,11 @@
 window.onload = function () {
-    var chart1 = new CanvasJS.Chart("chartContainer2", {
+    var chart4 = new CanvasJS.Chart("chartContainer5", {
       animationEnabled: true,
       theme: "light2",
       title: {
         text: "TR, MR and AR Curve",
       },
+      
       axisX:{
 		valueFormat: "Number",
     title: "Units of output",
@@ -28,31 +29,26 @@ window.onload = function () {
           showInLegend: true,
           indexLabelFontSize: 16,
           dataPoints: [
-            { x:1, y: 5 }, 
-            { x:2, y: 10 }, 
-            { x:3, y: 15 }, 
-            { x:4, y: 20 }, 
-            { x:5, y: 25 },
-            { x:6, y: 30 },
-            { x:7, y: 35 }],
+            { x:1, y: 20 }, 
+            { x:2, y: 40 }, 
+            { x:3, y: 60 }, 
+            { x:4, y: 80 }, 
+            { x:5, y: 100 },],
         },
 
         {
             type: "line",
-            name: "AR=MR",
+            name: "MR",
             showInLegend: true,
             indexLabelFontSize: 16,
             dataPoints: [
-              { x:1, y: 5 }, 
-              { x:2, y: 5 }, 
-              { x:3, y: 5 }, 
-              { x:4, y: 5 }, 
-              { x:5, y: 5 },
-              { x:6, y: 5 },
-              { x:7, y: 5 }],
+              { x:1, y: 20  }, 
+              { x:2, y: 20 }, 
+              { x:3, y: 20 }, 
+              { x:4, y: 20  }, 
+              { x:5, y: 20  },],
           },
-
       ],
     });
-    chart1.render();
+    chart4.render();
   };

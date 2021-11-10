@@ -1,5 +1,5 @@
 window.onload = function () {
-    var chart2 = new CanvasJS.Chart("chartContainer3", {
+    var chart3 = new CanvasJS.Chart("chartContainer4", {
       animationEnabled: true,
       theme: "light2",
       title: {
@@ -30,12 +30,10 @@ window.onload = function () {
           indexLabelFontSize: 16,
           dataPoints: [
             { x:1, y: 10 }, 
-            { x:2, y: 18 }, 
-            { x:3, y: 24 }, 
-            { x:4, y: 28 }, 
-            { x:5, y: 30 },
-            { x:6, y: 30 },
-            { x:7, y: 28 }],
+            { x:2, y: 16 }, 
+            { x:3, y: 18 }, 
+            { x:4, y: 16 }, 
+            { x:5, y: 10 },],
         },
 
         {
@@ -45,12 +43,10 @@ window.onload = function () {
             indexLabelFontSize: 16,
             dataPoints: [
               { x:1, y: 10 }, 
-              { x:2, y: 8 }, 
-              { x:3, y: 6 }, 
-              { x:4, y: 4 }, 
-              { x:5, y: 2 },
-              { x:6, y: 0 },
-              { x:7, y: -2 }],
+              { x:2, y: 6 }, 
+              { x:3, y: 2 }, 
+              { x:4, y: -2 }, 
+              { x:5, y: -6 },],
           },
 
           {
@@ -60,15 +56,13 @@ window.onload = function () {
             indexLabelFontSize: 16,
             dataPoints: [
               { x:1, y: 10 }, 
-              { x:2, y: 9 }, 
-              { x:3, y: 8 }, 
-              { x:4, y: 7 }, 
-              { x:5, y: 6 },
-              { x:6, y: 5 },
-              { x:7, y: 4 }],
+              { x:2, y: 8 }, 
+              { x:3, y: 6 }, 
+              { x:4, y: 4 }, 
+              { x:5, y: 2 },],
           },
 
       ],
     });
-    chart2.render();
+    chart3.render();
   };
