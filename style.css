@@ -393,48 +393,61 @@ h6 {
 }
 
 .content {
-  background-color: #f8ceec;
-  background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+  /* background-color: #f8ceec;
+  background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%); */
+  background-image: linear-gradient(to right, #F2994A, #F2C94C);
+  border-radius: 10px;
   margin: 0 1vw 0 1vw;
   width: 40vw;
 }
 
 .content2 {
-  background-color: #f8ceec;
-  background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+  /* background-color: #f8ceec;
+  background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%); */
+  background-image: linear-gradient(to right, #C9D6FF, #E2E2E2);
+  border-radius: 10px;
   margin: 0 1vw 0 1vw;
 
 }
 
 .content3 {
-  background-color: #f8ceec;
-  background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+  /* background-color: #f8ceec;
+  background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%); */
+  background-image: linear-gradient(to right, #e1eec3, #f05053);
   margin: 0 1vw 0 1vw;
+  border-radius: 10px;
   width: 40vw;
 }
 
 .content4 {
-  background-color: #f8ceec;
-  background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+  /* background-color: #f8ceec;
+  background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%); */
+  background-image: linear-gradient(to right, #fc4a1a,  #f7b733);
+  border-radius: 10px;
   margin: 0 1vw 0 1vw;
   width: 40vw;
 }
 
 .lesson_name {
-  background-color: purple;
+  /* background-image: linear-gradient(to right, #00F260,  #0575E6); */
+  background-color: #cc2b5e;
+  border:  thick double;
+  border-radius: 20px;
   padding-top: 1vh;
   text-align: center;
   height: 4vh;
   font-size: 25px;
-  color: aqua;
+  color: white;
 }
 
 .lesson_name2 {
-  background-color: purple;
+  background-color: #1a2a6c;
+  border:  thick double;
+  border-radius: 20px;
   padding-top: 1vh;
   text-align: center;
   font-size: 25px;
-  color: aqua;
+  color: white;
 }
 
 .chap {
