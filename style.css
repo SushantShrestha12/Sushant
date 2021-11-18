@@ -748,15 +748,17 @@ th,
   .eco_qsn {
     font-size: 15px;
     text-align: justify;
-    margin: 3vh 5vw 0 5vw;
+    margin: 0 5vw 0 5vw;
     padding-left: 0vw;
+    padding-top: 3vh;
   }
 
   .eng_qsn {
     font-size: 15px;
     text-align: justify;
-    margin: 3vh 5vw 0 5vw;
+    margin: 0 5vw 0 5vw;
     padding-left: 0vw;
+    padding-top: 3vh;
   }
 
   .q11 {
@@ -801,10 +803,12 @@ th,
   }
 
   .Eco_sub {
+    background-image: linear-gradient(to left, #ED4264, #FFEDBC);
     width: 100vw;
   }
 
   .eng_sub {
+    background-image: linear-gradient(to left, #ee9ca7, #ffdde1);
     width: 100vw;
   }
 
