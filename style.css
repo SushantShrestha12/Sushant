@@ -604,6 +604,10 @@ h6 {
   font-size: 20px;
 }
 
+.curves{
+  width: 60vw;
+}
+
 .eng_ans {
   padding: 0 5vw 0 0;
   text-align: justify;
@@ -732,6 +736,11 @@ th,
 @media screen and (max-width: 700px) {
   .economics {
     display: inline;
+  }
+
+  .curves{
+    width: 100vw;
+    height: 40vh;
   }
 
   .english {
