@@ -553,6 +553,15 @@ h6 {
   padding-right: 5vw;
 }
 
+.nep_qsn {
+  color: #D31027;
+  text-align: center;
+  padding-left: 5vw;
+  font-size: 27px;
+  margin: 2vh 0 0 0;
+  padding-right: 5vw;
+}
+
 .q11 {
   color: #080808;
   text-align: left;
@@ -601,6 +610,15 @@ h6 {
   font-size: 3vh;
   border-collapse: collapse;
   margin-left: 5vw;
+  font-size: 20px;
+}
+
+.nep_ans {
+  padding: 0 5vw 0 0;
+  text-align: center;
+  font-size: 3vh;
+  border-collapse: collapse;
+  margin-left: 24vw;
   font-size: 20px;
 }
 
@@ -770,6 +788,14 @@ th,
     padding-top: 3vh;
   }
 
+  .nep_qsn {
+    font-size: 17px;
+    text-align: justify;
+    margin: 0 5vw 0 5vw;
+    padding-left: 0vw;
+    padding-top: 3vh;
+  }
+
   .q11 {
     font-size: 15px;
   }
@@ -802,6 +828,12 @@ th,
   }
 
   .eng_ans {
+    font-size: 15px;
+    padding: 0;
+    margin: 0 5vw 0 5vw;
+  }
+
+  .nep_ans {
     font-size: 15px;
     padding: 0;
     margin: 0 5vw 0 5vw;
