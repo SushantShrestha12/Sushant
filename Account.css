@@ -1,0 +1,260 @@
+.trial_balance{
+    border-collapse: collapse;
+    margin-left: 5vw;
+    margin-top: 2vh;
+}
+
+.label1{
+    width: 60vw;
+    font-size: 20px;
+    color: red;
+}
+
+.label2{
+    width: 15vw;
+    font-size: 20px;
+    color: red;
+}
+
+.label3{
+    width: 15vw;
+    font-size: 20px;
+    color: red;
+}
+
+.items1{
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.items2{
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.items3{
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.title{
+    color: red;
+    text-align: center;
+    font-size: 23px;
+}
+
+.worksheet{
+    border-collapse: collapse;
+    margin-left: 5vw;
+    margin-top: 2vh;
+}
+
+.SN{
+    width: 3vw;
+    height: 5vh;
+    color: red;
+    font-size: 20px;
+}
+
+.AT{
+    width: 22vw;
+    height: 5vh;
+    color: red;
+    font-size: 20px;
+}
+
+.UTB{
+    width: 13vw;
+    height: 5vh;
+    color: red;
+    font-size: 20px;
+}
+
+.sub_table{
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+.Rs1{
+    width: 6.5vw;
+    color: red;
+    font-size: 20px;
+}
+
+.Rs2{
+    width: 6.5vw;
+    color: red;
+    font-size: 20px;
+}
+
+.Adjustment{
+    width: 13vw;
+    height: 5vh;
+    color: red;
+    font-size: 20px;
+}
+
+.ATB{
+    width: 13vw;
+    height: 5vh;
+    color: red;
+    font-size: 20px;
+}
+
+.Is{
+    width: 13vw;
+    height: 5vh;
+    color: red;
+    font-size: 20px;
+}
+
+.Bs{
+    width: 13vw;
+    height: 5vh;
+    color: red;
+    font-size: 20px;
+}
+
+.num{
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.list{
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.damt{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 6.5vw;
+    text-align: center;
+    font-size: 20px;
+    height: 4.2vh;
+}
+
+.camt{
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 6.5vw;
+    text-align: center;
+    font-size: 20px;
+    height: 4.2vh;
+}
+
+
+/* media quaries */
+@media screen and (max-width: 700px) {
+    .label1, .label2, .label3 {
+        font-size: 15px;
+    }
+    
+    .items1, .items2, .items3 {
+        font-size: 15px;
+    }
+    
+    .title{
+        font-size: 15px;
+    }
+    
+    .worksheet{
+        margin-left: 0vw;
+        margin-top: 2vh;
+    }
+
+    .SN{
+        width:2vw;
+        height: 3vh;
+        color: red;
+        font-size: 13px;
+    }
+    
+    .AT{
+        width: 20vw;
+        height: 3vh;
+        color: red;
+        font-size: 13px;
+    }
+    
+    .UTB{
+        width: 10vw;
+        height: 3vh;
+        color: red;
+        font-size: 13px;
+    }
+
+    .Rs1{
+        width: 10vw;
+        color: red;
+        font-size: 13px;
+    }
+    
+    .Rs2{
+        width: 10vw;
+        color: red;
+        font-size: 13px;
+    }
+
+    .Adjustment{
+        width: 10vw;
+        height: 3vh;
+        color: red;
+        font-size: 13px;
+    }
+    
+    .ATB{
+        width: 10vw;
+        height: 3vh;
+        color: red;
+        font-size: 13px;
+    }
+    
+    .Is{
+        width: 10vw;
+        height: 3vh;
+        color: red;
+        font-size: 13px;
+    }
+    
+    .Bs{
+        width: 10vw;
+        height: 3vh;
+        color: red;
+        font-size: 13px;
+    }
+
+    .num{
+        border: 2px solid black;
+        font-size: 13px;
+    }
+    
+    .list{
+        border: 2px solid black;
+        font-size: 10px;
+        height: 3vh;
+    }
+    
+    .damt{
+        border-right: 2px solid black;
+        border-bottom: 2px solid black;
+        width: 10vw;
+        text-align: center;
+        font-size: 10px;
+        height: 5vh;
+    }
+    
+    .camt{
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+        width: 10vw;
+        text-align: center;
+        font-size: 10px;
+        height: 5vh;
+    }
+
+}
