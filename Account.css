@@ -242,7 +242,7 @@
         border-right: 2px solid black;
         border-bottom: 2px solid black;
         width: 10vw;
-        text-align: center;
+        text-align: left;
         font-size: 10px;
         height: 5vh;
     }
@@ -252,7 +252,7 @@
         border-left: 2px solid black;
         border-bottom: 2px solid black;
         width: 10vw;
-        text-align: center;
+        text-align: left ;
         font-size: 10px;
         height: 5vh;
     }
