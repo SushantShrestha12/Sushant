@@ -488,6 +488,15 @@ h6 {
   width: 70vw;
 }
 
+.title{
+  font-size: 20px;
+  text-align: center;
+}
+
+.title2{
+  font-size: 20px;
+}
+
 .accountancy {
   background-image: linear-gradient(to left, #E0EAFC, #CFDEF3);
 }
@@ -786,6 +795,15 @@ th,
     margin: 0 5vw 0 5vw;
     padding-left: 0vw;
     padding-top: 3vh;
+  }
+
+  .title{
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .title2{
+    font-size: 15px;
   }
 
   .nep_qsn {
