@@ -635,6 +635,11 @@ h6 {
   width: 60vw;
 }
 
+.curves2{
+  width: 50vw;
+  height: 55vh;
+}
+
 .eng_ans {
   padding: 0 5vw 0 0;
   text-align: justify;
@@ -768,6 +773,11 @@ th,
   .curves{
     width: 100vw;
     height: 40vh;
+  }
+  .curves2{
+    width: 60vw;
+    height: 40vh;
+    margin-left: 10vw;
   }
 
   .english {
