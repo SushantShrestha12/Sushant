@@ -146,6 +146,10 @@
     height: 4.2vh;
 }
 
+.activities{
+    color: red;
+}
+
 
 /* media quaries */
 @media screen and (max-width: 700px) {
