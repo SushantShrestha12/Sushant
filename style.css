@@ -649,6 +649,20 @@ h6 {
   font-size: 20px;
 }
 
+.practical{
+  width:40vw;
+  height: 100vh;
+  margin-left: 12vw;
+  margin-top: 10vh;
+}
+
+.landscape{
+  width:50vw;
+  height: 65vh;
+  margin-left: 7vw;
+  margin-top: 10vh;
+}
+
 .table_head{
   width: 10vw;
 }
